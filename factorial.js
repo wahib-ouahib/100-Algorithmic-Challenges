@@ -4,10 +4,10 @@ function fact(x){
     }
     else{
         let y = x;
-        for (var i=1;i<x;i++){
+        for ( i=1;i<x;i++){
         y=y*(x-i+1);}
     return y;
     }
     
 }
-console.log(fact(0));
+console.log(fact(9));
