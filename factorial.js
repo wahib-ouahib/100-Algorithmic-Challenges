@@ -5,7 +5,7 @@ function fact(x){
     else{
         let y = x;
         for ( i=1;i<x;i++){
-        y=y*(x-i+1);}
+        y=y*(x-i);}
     return y;
     }
     
