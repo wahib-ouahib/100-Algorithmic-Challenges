@@ -1,12 +1,13 @@
 function fact(x){
     if (x=0){
         return 1;
-    }else{
-        var y=x;
+    }
+    else{
+        let y = x;
         for (i=1;i<x;i++){
-        y=y*(x-i+2);}
+        y=y*(x-i+1);}
     return y;
     }
     
 }
-console.log(fact(3));
+console.log(fact(0));
