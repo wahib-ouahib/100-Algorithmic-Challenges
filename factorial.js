@@ -1,8 +1,12 @@
 function fact(x){
-    for (i=1;i<x;i++){
-        x=x*(x-i);
-
+    if (x=0){
+        return 1;
+    }else{
+        var y=x;
+        for (i=1;i<x;i++){
+        y=y*(x-i+2);}
+    return y;
     }
-    return x;
-
+    
 }
+console.log(fact(3));
